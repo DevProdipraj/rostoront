@@ -1,0 +1,216 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+ /* header design start from here  */
+header{
+    background-color: #24a19c;
+    padding: 10px;
+}
+.logo{
+    font-size: 60px;
+    text-align: center;
+    
+}
+.logo i{
+    padding: 10px 15px;
+    color: white;
+    border: 5px solid white;
+    border-radius: 50%;
+    transition: 0.3s;
+}
+ 
+.logo i:hover{
+    transform: scale(1.55);
+    margin-top: 50px;
+    color: tomato;
+    margin-bottom:20px;
+    border: 5px solid tomato;
+}
+.nav-menu{
+    text-align: center;
+    width: 100%;
+}
+.nav-menu a{
+    text-decoration: none;
+    text-transform: uppercase;
+    color: white;
+    font-size: 24px;
+
+}
+.nav-menu li{
+    transition: 0.3s;
+    list-style: none;
+    padding: 20px 0px;
+    background-color: rgba(128, 128, 128, 0.5);
+    margin: 10px 0px;
+    border-radius: 5px;
+}
+.nav-menu li:hover{
+   background-color: tomato;
+}
+ /* header section design ends here */
+
+
+ /* banner section design starts from here */
+    #banner{
+        background-image: url(./Bg-banner/bg-banner.jpg);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-size: cover;
+    }
+    .banner-containt{
+        padding: 10px 50px;
+    }
+    .banner-titile{
+        text-align: center;
+    }
+    .banner-titile h1{
+        font-size: 2.3rem;
+        color: #000;
+        background-color: rgba(255, 255, 0, 0.514);
+        padding: 50px 20px;
+        border-radius: 5px;
+        margin: 20px 0px;
+        font-family: arial black;
+    }
+    .food-offer{
+        text-align: center;
+    }
+    .food-offer h2{
+        font-size: 1.3rem;
+        color: #000;
+        background-color: green;
+        padding: 15px 10px;
+        border-radius: 5px;
+    }
+    .banner-botton{
+        text-align: center;
+    }
+    .btn{
+        padding: 10px 30px;
+        border-radius: 5px;
+        color: white;
+        background-color: tomato;
+        border: none;
+        margin-top: 20px;
+    }
+ /* banner section design ends from here*/
+
+ /* about section design starts from here */
+
+.about-container{
+    background-color: #24a19c;
+    padding: 20px ;
+}
+.about-title{
+    width: 200px;
+    margin: auto;
+    text-align: center;
+    background-color: rgba(255, 99, 71, 0.575);
+    border-radius: 5px;
+}
+.about-title h1{
+    padding: 10px ;
+    font-size: 24px;
+    margin-bottom: 20px;
+    transition: 0.3s;
+    
+}
+.about-title h1:hover{
+    background-color: tomato;
+    border-radius: 5px;
+}
+.about-dosc{
+    text-align: justify;
+    color: #ddd;
+    line-height: 20px;
+}
+ /* about section design ends from here */
+
+ /* cade design start from here */
+ #food{
+     background-color: gray;
+ }
+ .singel-card{
+    padding: 15px 5px;
+     width: 80%;
+     background-color: #24a19c;
+     margin: 20px auto;
+     border-radius: 5px;
+      transition: 0.3s;
+ }
+ .singel-card:hover{
+     box-shadow: 10px 10px 10px black;
+ }
+ .singel-card img{
+     width: 100%;
+     height: 400px;
+ }
+ .singel-card h3{
+     text-align: center;
+     font-size: 2.5rem;
+ }
+ .singel-card h1{
+     background-color: tomato;
+     text-align: center;
+     padding:5px 0px;
+     font-family: sans-serif;
+     
+ }
+ .singel-card P{
+     text-align: justify;
+     margin: 10px 0px;
+ }
+ .food-btn{
+    text-align: center;
+ }
+ .fbtn{
+  
+     background-color: tomato;
+     padding: 8px 20px;
+     color: white;
+     border-radius: 5px;
+ }
+
+ .food-btn h2{
+     margin-top: 20px;
+     font-family: arial black;
+ }
+ /* cade design ends from here */
+
+
+ /* contact design start from here */
+
+ #contact{
+    background-color: aquamarine;
+    
+    
+}
+ .location{
+    width: 100%;
+    height: 300px;
+}
+.dosc h1, h3{
+   text-align: center;
+   padding: 10px;
+}
+.dosc h1{
+    font-size: 2.3rem;
+    cursor: pointer;
+}
+.dosc h3{
+    font-size: 24px;
+    cursor: pointer;
+}
+
+.dosc{
+    margin-top: 20px;
+     padding: 40px;
+    background-color: rgba(0, 0, 0, 0.424);
+}
+
+ /* contact design ends from here */

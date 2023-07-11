@@ -1,0 +1,309 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+/* for desktop design */
+.col-1 {width: 8.33%;}
+.col-2 {width: 16.66%;}
+.col-3 {width: 25%;}
+.col-4 {width: 33.33%;}
+.col-5 {width: 41.66%;}
+.col-6 {width: 50%;}
+.col-7 {width: 58.33%;}
+.col-8 {width: 66.66%;}
+.col-9 {width: 75%;}
+.col-10 {width: 83.33%;}
+.col-11 {width: 91.66%;}
+.col-12 {width: 100%;}
+
+/* .main-container{
+    width: 1200px;
+    margin: auto;
+} */
+/* header section design starts from here */
+.container{
+    background-color:#24a19c;
+    padding: 10px 0px;
+}
+.logo{
+ 
+    float: left;
+    text-align: center;
+}
+.nav-menu{
+    float: right;
+    text-align: right;
+    transition: 0.3s;  
+}
+.logo i{
+    padding: 10px 15px;
+    color: white;
+    border: 5px solid white;
+    border-radius: 50%;
+    transition: 0.3s;
+    font-size: 2.3rem;
+}
+.logo i:hover{
+    font-size: 3.3rem;
+    color: tomato;
+    border: 5px solid tomato;
+}
+.nav-menu ul{
+
+    padding-top: 10px;
+}
+.nav-menu li{
+    list-style: none;
+    display: inline;
+    padding-top: 10px;
+   
+}
+.nav-menu a{
+    text-decoration: none;
+    font-size: 1.9rem;
+    text-transform: uppercase;
+    font-family: serif;
+    padding-right: 28px;
+    color: white;
+    
+}
+.nav-menu a:hover{
+    color: tomato; 
+}
+ 
+.container::after{
+    display: table;
+    content: '';
+    clear: both;
+}
+ 
+/* header section ends from here  */
+
+/* banner section design starts from her */
+
+#banner{
+    background-image: url(./Bg-banner/bg-banner.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+.banner-containt{
+    width: 500px;
+    margin: auto;
+    text-align: center;
+    padding: 200px 0px;
+}
+ 
+.banner-titile h1{
+    background-color: rgba(255, 255, 0, 0.507);
+    font-family: arial black;
+    font-size: 2.3rem;
+    padding: 30px 0px;
+    border-radius: 5px;
+    transition: 0.3s;
+}
+.banner-titile h1:hover{
+    background-color:yellow ;
+}
+
+.food-offer{
+    text-align: center;
+    margin-top: 20px;
+}
+.food-offer h2{
+    font-size: 2rem;
+    color: #000;
+    background-color:  rgba(0, 128, 0, 0.637);
+    padding: 15px 10px;
+    border-radius: 5px;
+    transition: 0.3s;
+}
+.food-offer h2:hover{
+    background-color: green;
+}
+.banner-botton{
+    text-align: center;
+}
+.btn{
+    padding: 15px 40px;
+    border-radius: 5px;
+    color: white;
+    background-color:rgba(255, 99, 71, 0.924);
+    border: none;
+    margin-top: 20px;
+    font-size: 24px;
+}
+ 
+
+/* banner section design ends from her */
+
+ /* about section design starts from here */
+
+ .about-container{
+    background-color: #24a19c;
+    padding: 20px ;
+}
+.about-title{
+    width: 300px;
+    margin: auto;
+    text-align: center;
+    background-color: rgba(255, 99, 71, 0.575);
+    border-radius: 5px;
+}
+.about-title h1{
+    padding: 10px ;
+    font-size: 24px;
+    margin-bottom: 20px;
+    transition: 0.3s;
+    
+}
+.about-title h1:hover{
+    background-color: tomato;
+    border-radius: 5px;
+}
+.about-dosc{
+    width: 80%;
+    margin: auto;
+    text-align: justify;
+    color: #ddd;
+    line-height: 20px;
+}
+ /* about section design ends from here */
+
+
+ 
+    .card-row{
+        width: 95%;
+        margin: auto;
+    }
+ .singel-card{
+    /* box-sizing: border-box; */
+    float: left;
+    padding: 20px 10px;
+    background-color: #24a19c;
+    margin: 20px 10px;
+    width: 23%;
+    transition: 0.3s;
+    border-radius: 5px;
+
+  
+ }
+ .singel-card:hover{
+    box-shadow: 10px 10px 10px black;
+    cursor: pointer;
+ }
+ .singel-card img{
+     width: 100%;
+     height: 300px;
+ }
+ .singel-card h1{
+     background-color: red;
+     text-align: center;
+     padding: 5px 0px;
+     border-radius: 5px;
+ }
+ .singel-card p{
+    color: #ddd;
+    text-align: justify;
+
+ }
+
+ .food-btn{
+     text-align: center;
+     padding: 8px 15px;
+ }
+ .fbtn{
+    padding: 8px 15px;
+    color: white;
+    background-color: tomato;
+    border-radius: 5px;
+ }
+ .singel-card h3{
+     font-size: 2.5rem;
+ }
+ .singel-card h3, h2{
+    text-align: center;
+ }
+ .food-btn h2{
+    font-size: 2.3rem;
+    font-family: arial black;
+ }
+
+ .singel-card::after{
+     display: table;
+     contain: '';
+     clear: both;
+ }
+/* cade design ends from here */
+
+/* cantct section design start from here */
+#contact{
+    background-color: aquamarine;
+    
+    
+}
+.map{
+    float: left;
+    padding: 20px 10px 10px 0px;
+   
+}
+.dosc{
+    float: left;
+   
+}
+
+
+.location{
+    width: 100%;
+    height: 300px;
+}
+.dosc h1, h3{
+   text-align: center;
+   padding: 10px;
+}
+.dosc h1{
+    font-size: 2.3rem;
+    cursor: pointer;
+}
+.dosc h3{
+    font-size: 24px;
+    cursor: pointer;
+}
+
+.dosc{
+    margin-top: 20px;
+     padding: 40px;
+    background-color: rgba(0, 0, 0, 0.424);
+}
+.contact::after{
+    display: table;
+    clear: both;
+    content: '';
+}
+/* cantct section design start from here */
+
+ 
+.footer-dosc{
+    color: #ddd;
+    float: left;
+    background-color: #000;
+}
+.socal-link{
+    float: left;
+    background-color: #000;
+    text-align: right;
+}
+.footer-dosc p{
+    text-align: center;
+   margin: 20px;
+   font-size: 1.3rem;
+    
+}
+.ftbtn{
+    padding: 10px;
+    margin: 12.5px;
+    border-radius: 50%;
+    border-radius: 5px solid white;
+}
